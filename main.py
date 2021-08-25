@@ -76,7 +76,7 @@ stop = tk.Button(root, text="Stop", font=('calbiri', 12), command=lambda: plot_s
 stop.place(x=start.winfo_x() + start.winfo_reqwidth() + 20, y=650)
 
 # ----start serial port----
-s = sr.Serial('COM10', 115200)
+s = sr.Serial('COM10', 9600)
 s.reset_input_buffer()
 
 root.after(1, plot_data)
