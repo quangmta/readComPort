@@ -81,3 +81,4 @@ s.reset_input_buffer()
 
 root.after(1, plot_data)
 root.mainloop()
+#cmt
